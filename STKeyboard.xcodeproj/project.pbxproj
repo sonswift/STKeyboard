@@ -13,19 +13,19 @@
 		E70F35D71E30A0FE006241E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70F35D61E30A0FE006241E3 /* Default-568h@2x.png */; };
 		E70F35D91E30A142006241E3 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35D81E30A142006241E3 /* View.swift */; };
 		E70F35DB1E30A17E006241E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35DA1E30A17E006241E3 /* MainView.swift */; };
-		E70F35F81E30CD3D006241E3 /* PHAssetCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35E61E30CD3D006241E3 /* PHAssetCollectionExtension.swift */; };
-		E70F35F91E30CD3D006241E3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35E71E30CD3D006241E3 /* UIColorExtension.swift */; };
-		E70F35FA1E30CD3D006241E3 /* UIResponderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35E81E30CD3D006241E3 /* UIResponderExtension.swift */; };
-		E70F35FB1E30CD3D006241E3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35EA1E30CD3D006241E3 /* Model.swift */; };
-		E70F35FC1E30CD3D006241E3 /* STKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35EC1E30CD3D006241E3 /* STKeyboard.swift */; };
-		E70F35FD1E30CD3D006241E3 /* STKeyboardNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35EE1E30CD3D006241E3 /* STKeyboardNumber.swift */; };
-		E70F35FE1E30CD3D006241E3 /* STKeyboardPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35F01E30CD3D006241E3 /* STKeyboardPhoto.swift */; };
-		E70F35FF1E30CD3D006241E3 /* STKeyboardPhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35F11E30CD3D006241E3 /* STKeyboardPhotoCollection.swift */; };
-		E70F36001E30CD3D006241E3 /* STKeyboardPhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35F21E30CD3D006241E3 /* STKeyboardPhotoCollectionCell.swift */; };
-		E70F36011E30CD3D006241E3 /* AssetsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35F41E30CD3D006241E3 /* AssetsLibrary.swift */; };
-		E70F36021E30CD3D006241E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35F51E30CD3D006241E3 /* Constants.swift */; };
-		E70F36031E30CD3D006241E3 /* STButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35F61E30CD3D006241E3 /* STButton.swift */; };
-		E70F36041E30CD3D006241E3 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F35F71E30CD3D006241E3 /* Threading.swift */; };
+		E70F36191E30DCDC006241E3 /* PHAssetCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36071E30DCDC006241E3 /* PHAssetCollectionExtension.swift */; };
+		E70F361A1E30DCDC006241E3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36081E30DCDC006241E3 /* UIColorExtension.swift */; };
+		E70F361B1E30DCDC006241E3 /* UIResponderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36091E30DCDC006241E3 /* UIResponderExtension.swift */; };
+		E70F361C1E30DCDC006241E3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F360B1E30DCDC006241E3 /* Model.swift */; };
+		E70F361D1E30DCDC006241E3 /* STKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F360D1E30DCDC006241E3 /* STKeyboard.swift */; };
+		E70F361E1E30DCDC006241E3 /* STKeyboardNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F360F1E30DCDC006241E3 /* STKeyboardNumber.swift */; };
+		E70F361F1E30DCDC006241E3 /* STKeyboardPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36111E30DCDC006241E3 /* STKeyboardPhoto.swift */; };
+		E70F36201E30DCDC006241E3 /* STKeyboardPhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36121E30DCDC006241E3 /* STKeyboardPhotoCollection.swift */; };
+		E70F36211E30DCDC006241E3 /* STKeyboardPhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36131E30DCDC006241E3 /* STKeyboardPhotoCollectionCell.swift */; };
+		E70F36221E30DCDC006241E3 /* AssetsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36151E30DCDC006241E3 /* AssetsLibrary.swift */; };
+		E70F36231E30DCDC006241E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36161E30DCDC006241E3 /* Constants.swift */; };
+		E70F36241E30DCDC006241E3 /* STButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36171E30DCDC006241E3 /* STButton.swift */; };
+		E70F36251E30DCDC006241E3 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F36181E30DCDC006241E3 /* Threading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,19 +37,19 @@
 		E70F35D61E30A0FE006241E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E70F35D81E30A142006241E3 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		E70F35DA1E30A17E006241E3 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		E70F35E61E30CD3D006241E3 /* PHAssetCollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAssetCollectionExtension.swift; sourceTree = "<group>"; };
-		E70F35E71E30CD3D006241E3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		E70F35E81E30CD3D006241E3 /* UIResponderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResponderExtension.swift; sourceTree = "<group>"; };
-		E70F35EA1E30CD3D006241E3 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		E70F35EC1E30CD3D006241E3 /* STKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboard.swift; sourceTree = "<group>"; };
-		E70F35EE1E30CD3D006241E3 /* STKeyboardNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboardNumber.swift; sourceTree = "<group>"; };
-		E70F35F01E30CD3D006241E3 /* STKeyboardPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboardPhoto.swift; sourceTree = "<group>"; };
-		E70F35F11E30CD3D006241E3 /* STKeyboardPhotoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboardPhotoCollection.swift; sourceTree = "<group>"; };
-		E70F35F21E30CD3D006241E3 /* STKeyboardPhotoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboardPhotoCollectionCell.swift; sourceTree = "<group>"; };
-		E70F35F41E30CD3D006241E3 /* AssetsLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsLibrary.swift; sourceTree = "<group>"; };
-		E70F35F51E30CD3D006241E3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		E70F35F61E30CD3D006241E3 /* STButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STButton.swift; sourceTree = "<group>"; };
-		E70F35F71E30CD3D006241E3 /* Threading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
+		E70F36071E30DCDC006241E3 /* PHAssetCollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAssetCollectionExtension.swift; sourceTree = "<group>"; };
+		E70F36081E30DCDC006241E3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E70F36091E30DCDC006241E3 /* UIResponderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResponderExtension.swift; sourceTree = "<group>"; };
+		E70F360B1E30DCDC006241E3 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E70F360D1E30DCDC006241E3 /* STKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboard.swift; sourceTree = "<group>"; };
+		E70F360F1E30DCDC006241E3 /* STKeyboardNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboardNumber.swift; sourceTree = "<group>"; };
+		E70F36111E30DCDC006241E3 /* STKeyboardPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboardPhoto.swift; sourceTree = "<group>"; };
+		E70F36121E30DCDC006241E3 /* STKeyboardPhotoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboardPhotoCollection.swift; sourceTree = "<group>"; };
+		E70F36131E30DCDC006241E3 /* STKeyboardPhotoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STKeyboardPhotoCollectionCell.swift; sourceTree = "<group>"; };
+		E70F36151E30DCDC006241E3 /* AssetsLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsLibrary.swift; sourceTree = "<group>"; };
+		E70F36161E30DCDC006241E3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E70F36171E30DCDC006241E3 /* STButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STButton.swift; sourceTree = "<group>"; };
+		E70F36181E30DCDC006241E3 /* Threading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				E70F35D61E30A0FE006241E3 /* Default-568h@2x.png */,
+				E70F36051E30DCDC006241E3 /* Classes */,
 				E70F35AD1E3093FC006241E3 /* STKeyboard */,
 				E70F35AC1E3093FC006241E3 /* Products */,
 			);
@@ -84,25 +85,11 @@
 			isa = PBXGroup;
 			children = (
 				E70F35C11E30944D006241E3 /* Example */,
-				E70F35C01E30943A006241E3 /* Classes */,
 				E70F35AE1E3093FC006241E3 /* AppDelegate.swift */,
 				E70F35B51E3093FC006241E3 /* Assets.xcassets */,
 				E70F35BA1E3093FC006241E3 /* Info.plist */,
 			);
 			path = STKeyboard;
-			sourceTree = "<group>";
-		};
-		E70F35C01E30943A006241E3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E70F35E51E30CD3D006241E3 /* Extension */,
-				E70F35E91E30CD3D006241E3 /* Model */,
-				E70F35EB1E30CD3D006241E3 /* STKeyboard */,
-				E70F35ED1E30CD3D006241E3 /* STKeyboardNumber */,
-				E70F35EF1E30CD3D006241E3 /* STKeyboardPhoto */,
-				E70F35F31E30CD3D006241E3 /* Utility */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		E70F35C11E30944D006241E3 /* Example */ = {
@@ -115,57 +102,70 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		E70F35E51E30CD3D006241E3 /* Extension */ = {
+		E70F36051E30DCDC006241E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E70F35E61E30CD3D006241E3 /* PHAssetCollectionExtension.swift */,
-				E70F35E71E30CD3D006241E3 /* UIColorExtension.swift */,
-				E70F35E81E30CD3D006241E3 /* UIResponderExtension.swift */,
+				E70F36061E30DCDC006241E3 /* Extension */,
+				E70F360A1E30DCDC006241E3 /* Model */,
+				E70F360C1E30DCDC006241E3 /* STKeyboard */,
+				E70F360E1E30DCDC006241E3 /* STKeyboardNumber */,
+				E70F36101E30DCDC006241E3 /* STKeyboardPhoto */,
+				E70F36141E30DCDC006241E3 /* Utility */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E70F36061E30DCDC006241E3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E70F36071E30DCDC006241E3 /* PHAssetCollectionExtension.swift */,
+				E70F36081E30DCDC006241E3 /* UIColorExtension.swift */,
+				E70F36091E30DCDC006241E3 /* UIResponderExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		E70F35E91E30CD3D006241E3 /* Model */ = {
+		E70F360A1E30DCDC006241E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E70F35EA1E30CD3D006241E3 /* Model.swift */,
+				E70F360B1E30DCDC006241E3 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E70F35EB1E30CD3D006241E3 /* STKeyboard */ = {
+		E70F360C1E30DCDC006241E3 /* STKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				E70F35EC1E30CD3D006241E3 /* STKeyboard.swift */,
+				E70F360D1E30DCDC006241E3 /* STKeyboard.swift */,
 			);
 			path = STKeyboard;
 			sourceTree = "<group>";
 		};
-		E70F35ED1E30CD3D006241E3 /* STKeyboardNumber */ = {
+		E70F360E1E30DCDC006241E3 /* STKeyboardNumber */ = {
 			isa = PBXGroup;
 			children = (
-				E70F35EE1E30CD3D006241E3 /* STKeyboardNumber.swift */,
+				E70F360F1E30DCDC006241E3 /* STKeyboardNumber.swift */,
 			);
 			path = STKeyboardNumber;
 			sourceTree = "<group>";
 		};
-		E70F35EF1E30CD3D006241E3 /* STKeyboardPhoto */ = {
+		E70F36101E30DCDC006241E3 /* STKeyboardPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				E70F35F01E30CD3D006241E3 /* STKeyboardPhoto.swift */,
-				E70F35F11E30CD3D006241E3 /* STKeyboardPhotoCollection.swift */,
-				E70F35F21E30CD3D006241E3 /* STKeyboardPhotoCollectionCell.swift */,
+				E70F36111E30DCDC006241E3 /* STKeyboardPhoto.swift */,
+				E70F36121E30DCDC006241E3 /* STKeyboardPhotoCollection.swift */,
+				E70F36131E30DCDC006241E3 /* STKeyboardPhotoCollectionCell.swift */,
 			);
 			path = STKeyboardPhoto;
 			sourceTree = "<group>";
 		};
-		E70F35F31E30CD3D006241E3 /* Utility */ = {
+		E70F36141E30DCDC006241E3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				E70F35F41E30CD3D006241E3 /* AssetsLibrary.swift */,
-				E70F35F51E30CD3D006241E3 /* Constants.swift */,
-				E70F35F61E30CD3D006241E3 /* STButton.swift */,
-				E70F35F71E30CD3D006241E3 /* Threading.swift */,
+				E70F36151E30DCDC006241E3 /* AssetsLibrary.swift */,
+				E70F36161E30DCDC006241E3 /* Constants.swift */,
+				E70F36171E30DCDC006241E3 /* STButton.swift */,
+				E70F36181E30DCDC006241E3 /* Threading.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -241,23 +241,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70F36041E30CD3D006241E3 /* Threading.swift in Sources */,
-				E70F35FF1E30CD3D006241E3 /* STKeyboardPhotoCollection.swift in Sources */,
-				E70F36001E30CD3D006241E3 /* STKeyboardPhotoCollectionCell.swift in Sources */,
+				E70F36251E30DCDC006241E3 /* Threading.swift in Sources */,
+				E70F36201E30DCDC006241E3 /* STKeyboardPhotoCollection.swift in Sources */,
+				E70F36211E30DCDC006241E3 /* STKeyboardPhotoCollectionCell.swift in Sources */,
 				E70F35DB1E30A17E006241E3 /* MainView.swift in Sources */,
 				E70F35C31E30945C006241E3 /* ViewController.swift in Sources */,
 				E70F35D91E30A142006241E3 /* View.swift in Sources */,
-				E70F36021E30CD3D006241E3 /* Constants.swift in Sources */,
+				E70F36231E30DCDC006241E3 /* Constants.swift in Sources */,
 				E70F35AF1E3093FC006241E3 /* AppDelegate.swift in Sources */,
-				E70F35FE1E30CD3D006241E3 /* STKeyboardPhoto.swift in Sources */,
-				E70F35F81E30CD3D006241E3 /* PHAssetCollectionExtension.swift in Sources */,
-				E70F35F91E30CD3D006241E3 /* UIColorExtension.swift in Sources */,
-				E70F35FD1E30CD3D006241E3 /* STKeyboardNumber.swift in Sources */,
-				E70F36011E30CD3D006241E3 /* AssetsLibrary.swift in Sources */,
-				E70F36031E30CD3D006241E3 /* STButton.swift in Sources */,
-				E70F35FC1E30CD3D006241E3 /* STKeyboard.swift in Sources */,
-				E70F35FA1E30CD3D006241E3 /* UIResponderExtension.swift in Sources */,
-				E70F35FB1E30CD3D006241E3 /* Model.swift in Sources */,
+				E70F361F1E30DCDC006241E3 /* STKeyboardPhoto.swift in Sources */,
+				E70F36191E30DCDC006241E3 /* PHAssetCollectionExtension.swift in Sources */,
+				E70F361A1E30DCDC006241E3 /* UIColorExtension.swift in Sources */,
+				E70F361E1E30DCDC006241E3 /* STKeyboardNumber.swift in Sources */,
+				E70F36221E30DCDC006241E3 /* AssetsLibrary.swift in Sources */,
+				E70F36241E30DCDC006241E3 /* STButton.swift in Sources */,
+				E70F361D1E30DCDC006241E3 /* STKeyboard.swift in Sources */,
+				E70F361B1E30DCDC006241E3 /* UIResponderExtension.swift in Sources */,
+				E70F361C1E30DCDC006241E3 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
