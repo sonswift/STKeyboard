@@ -23,9 +23,9 @@ Drag and drop Classes folder into your project.
 ```
 let textField = UITextField()
 
-textField.switchToSTKeyboard(withType: STKeyboardType.default)
-textField.switchToSTKeyboard(withType: STKeyboardType.number)
-textField.switchToSTKeyboard(withType: STKeyboardType.photo)
+textField.switchToSTKeyboard(withType: .default)
+textField.switchToSTKeyboard(withType: .number)
+textField.switchToSTKeyboard(withType: .photo)
 ```
 
   - Create a new keyboard by inheriting from `STKeyboard`
