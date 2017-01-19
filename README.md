@@ -2,10 +2,12 @@
 Custom keyboards for iOS applications.
 
 # Features
-	+ Switch between 3 kinds of keyboard
+	+ Switch between 3 kinds of keyboard: default, number and photo.
 	+ Support for both UITextField and UITextView
 	+ Support number keyboard.
 	+ Support photo keyboard.
+	
+![alt tag](https://github.com/son11592/STKeyboard/blob/master/STKeyboard.gif)
 	
 # Installation
 
