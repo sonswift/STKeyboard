@@ -16,49 +16,6 @@ protocol AssetsLibraryDelegate: class {
 
 fileprivate var currentPHImageRequestId: PHImageRequestID = -1
 
-open class Model: NSObject {
-
-  override init() {
-    super.init()
-    self.commonInit()
-  }
-
-  func commonInit() {
-  }
-}
-
-open class PhotoSelectedModel: Model {
-
-  open var selectedIndex: Int = 0
-}
-
-open class AssetModel: Model {
-
-  open var index: Int = -1
-
-  open var phAsset: PHAsset!
-
-  open var cropImage: UIImage?
-
-  open var blurImage: UIImage?
-
-  open var isSelected: Bool = false
-
-  override func commonInit() {
-    super.commonInit()
-    self.phAsset = PHAsset()
-  }
-}
-
-open class ImagesGroup: Model {
-
-  open var assets: [AssetModel] = []
-
-  open var phAssets: [AssetModel] = []
-
-  open var assetsCollection: PHAssetCollection?
-}
-
 class AssetsLibrary {
 
   fileprivate var imagesGroup: [ImagesGroup] = []
@@ -261,10 +218,12 @@ class AssetsLibrary {
     let option = PHImageRequestOptions()
     option.isNetworkAccessAllowed = true
     currentPHImageRequestId = manager.requestImage(for: asset, targetSize: PHImageManagerMaximumSize,
-                         contentMode: .aspectFill, options: option, resultHandler: {(result, info) -> Void in
-                          if let id = info?["PHImageResultRequestIDKey"] as? PHImageRequestID, id == currentPHImageRequestId {
-                            completion(result)
-                          }
+                                                   contentMode: .aspectFill, options: option,
+                                                   resultHandler: {(result, info) -> Void in
+                                                    guard let id = info?["PHImageResultRequestIDKey"] as? PHImageRequestID,
+                                                      id == currentPHImageRequestId else { return }
+
+                                                    completion(result)
     })
   }
 
@@ -279,15 +238,5 @@ class AssetsLibrary {
 
   deinit {
     print("Deinit: AssetsLibrary")
-  }
-}
-
-@available(iOS 8.0, *)
-extension PHAssetCollection {
-  var photosCount: Int {
-    let fetchOptions = PHFetchOptions()
-    fetchOptions.predicate = NSPredicate(format: "mediaType == %d", PHAssetMediaType.image.rawValue)
-    let result = PHAsset.fetchAssets(in: self, options: fetchOptions)
-    return result.count
   }
 }

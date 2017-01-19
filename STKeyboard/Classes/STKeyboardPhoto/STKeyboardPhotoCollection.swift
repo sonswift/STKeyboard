@@ -96,6 +96,7 @@ class STKeyboardPhotoCollection: UICollectionView {
 
 // MARK: - UICollectionViewDelegate, UICollectionViewDataSource
 extension STKeyboardPhotoCollection: UICollectionViewDelegate, UICollectionViewDataSource {
+
   public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "STKeyboardPhotoCollectionCell", for: indexPath)
     if let photoCell = cell as? STKeyboardPhotoCollectionCell {
@@ -113,7 +114,7 @@ extension STKeyboardPhotoCollection: UICollectionViewDelegate, UICollectionViewD
     return self.imageSources.count
   }
 
-  func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+  public func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
     (self.getModel(at: indexPath) as? AssetModel)?.isSelected = false
   }
 
@@ -171,7 +172,8 @@ extension STKeyboardPhotoCollection: UICollectionViewDelegate, UICollectionViewD
 
 // MARK: - AssetsLibraryDelegate
 extension STKeyboardPhotoCollection: AssetsLibraryDelegate {
-  func assetsLibraryGroupLoadingCompleted() {
+
+  public func assetsLibraryGroupLoadingCompleted() {
     Threading.asyncBackground {
       self.assetsLibrary.forceGetDefaultCollection({ (assets) -> Void in
         self.processResources(assets)
@@ -183,6 +185,6 @@ extension STKeyboardPhotoCollection: AssetsLibraryDelegate {
     }
   }
 
-  func assetsLibraryGroupDidSelectGroup(_ imagesGroup: ImagesGroup) {
+  public func assetsLibraryGroupDidSelectGroup(_ imagesGroup: ImagesGroup) {
   }
 }

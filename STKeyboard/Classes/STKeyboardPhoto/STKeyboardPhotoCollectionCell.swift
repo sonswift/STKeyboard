@@ -91,12 +91,12 @@ class STKeyboardPhotoCollectionCell: UICollectionViewCell {
 
   fileprivate func showBlur() {
     if self.isSelected {
-      UIView.animate(withDuration: 0.23) {
+      UIView.animate(withDuration: Constants.animationDuration) {
         self.blur.effect = UIBlurEffect(style: UIBlurEffectStyle.light)
         self.send.alpha = 1
       }
     } else {
-      UIView.animate(withDuration: 0.23) {
+      UIView.animate(withDuration: Constants.animationDuration) {
         self.blur.effect = nil
         self.send.alpha = 0
       }
