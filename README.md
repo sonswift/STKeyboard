@@ -57,4 +57,5 @@ If you use/enjoy STKeyboard, let me know!
 
 # License
 
+Copyright (c) 2017 Son Thai (hoangson11592@gmail.com).
 See the LICENSE file for more info.
