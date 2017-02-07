@@ -2,15 +2,20 @@ PODS:
   - STKeyboard (0.0.1)
 
 DEPENDENCIES:
-  - STKeyboard (from `../`)
+  - STKeyboard (from `https://github.com/son11592/STKeyboard`)
 
 EXTERNAL SOURCES:
   STKeyboard:
-    :path: "../"
+    :git: https://github.com/son11592/STKeyboard
+
+CHECKOUT OPTIONS:
+  STKeyboard:
+    :commit: 79001c48d66a8a3c676957dcfc0b5e372a64dfea
+    :git: https://github.com/son11592/STKeyboard
 
 SPEC CHECKSUMS:
   STKeyboard: 1a1623292f44f852b102c3fe5f3de81b6402be34
 
-PODFILE CHECKSUM: 0259f58eb37fa3c51e45b38d852860469fa89151
+PODFILE CHECKSUM: 0c0c02482ed75101da0104df403b67de9436e55b
 
 COCOAPODS: 1.1.1
