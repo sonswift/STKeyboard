@@ -1,5 +1,5 @@
 PODS:
-  - STKeyboard (0.1.0)
+  - STKeyboard (0.0.1)
 
 DEPENDENCIES:
   - STKeyboard (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  STKeyboard: 4699acc2dc277e32fb7de8f1c61983305a038115
+  STKeyboard: 1a1623292f44f852b102c3fe5f3de81b6402be34
 
-PODFILE CHECKSUM: e213d9d84ffe07442ffe7f918c4a4bdb04713f8f
+PODFILE CHECKSUM: 0259f58eb37fa3c51e45b38d852860469fa89151
 
 COCOAPODS: 1.1.1

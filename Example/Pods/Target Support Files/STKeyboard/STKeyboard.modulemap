@@ -1,0 +1,6 @@
+framework module STKeyboard {
+  umbrella header "STKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

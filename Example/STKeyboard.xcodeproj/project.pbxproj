@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25FB6FBC5523C70C4A2A061A /* Pods_STKeyboard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C202F628CE879FC04B1D7DEF /* Pods_STKeyboard_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C38E191D78B9129D062C7E04 /* Pods_STKeyboard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223F4126D2C99F11ED2732E9 /* Pods_STKeyboard_Example.framework */; };
-		E71993F51E330FF7006245D8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71993F31E330FF7006245D8 /* MainView.swift */; };
-		E71993F61E330FF7006245D8 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71993F41E330FF7006245D8 /* View.swift */; };
+		E2DC6F47603525523DFAD40D /* Pods_STKeyboard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F6A40A9CA511565B334AF9 /* Pods_STKeyboard_Example.framework */; };
+		E75CBA821E499672007A18F8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CBA801E499672007A18F8 /* MainView.swift */; };
+		E75CBA831E499672007A18F8 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CBA811E499672007A18F8 /* View.swift */; };
+		F519BCA4BA0D9733936EA56E /* Pods_STKeyboard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED2F736A83D4874A55685D3 /* Pods_STKeyboard_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,9 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C0BB523A257608F5EA314B5 /* Pods-STKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKeyboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STKeyboard_Example/Pods-STKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		223F4126D2C99F11ED2732E9 /* Pods_STKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		250DBEC5D461D20713C2DD49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04F03D2DE782AE84676A86FA /* Pods-STKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKeyboard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STKeyboard_Tests/Pods-STKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		142AB3F7733C1AEE0D415F67 /* Pods-STKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKeyboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STKeyboard_Example/Pods-STKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1F54041FCCE96523DCD153F1 /* STKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STKeyboard.podspec; path = ../STKeyboard.podspec; sourceTree = "<group>"; };
+		33324798827170B3163222B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* STKeyboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STKeyboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,14 +44,13 @@
 		607FACE51AFB9204008FA782 /* STKeyboard_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STKeyboard_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9BA236738A602CCCC81F4E9D /* STKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STKeyboard.podspec; path = ../STKeyboard.podspec; sourceTree = "<group>"; };
-		AE20984C9C08E08EF9189C4D /* Pods-STKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKeyboard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STKeyboard_Tests/Pods-STKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C14D97621EF4CED01ABFE381 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C202F628CE879FC04B1D7DEF /* Pods_STKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E111ED0A9B65035319405E6E /* Pods-STKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKeyboard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STKeyboard_Tests/Pods-STKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E71993F31E330FF7006245D8 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		E71993F41E330FF7006245D8 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		EE2A5CA6A909953926DE6C2F /* Pods-STKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKeyboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-STKeyboard_Example/Pods-STKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6C60B90E67074E7DCC515D0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8395774F1100B4CE921EAF4C /* Pods-STKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKeyboard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STKeyboard_Tests/Pods-STKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED2F736A83D4874A55685D3 /* Pods_STKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F6A40A9CA511565B334AF9 /* Pods_STKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75CBA801E499672007A18F8 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E75CBA811E499672007A18F8 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		FDE8C44CDB060316AE712912 /* Pods-STKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKeyboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-STKeyboard_Example/Pods-STKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38E191D78B9129D062C7E04 /* Pods_STKeyboard_Example.framework in Frameworks */,
+				E2DC6F47603525523DFAD40D /* Pods_STKeyboard_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,13 +66,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25FB6FBC5523C70C4A2A061A /* Pods_STKeyboard_Tests.framework in Frameworks */,
+				F519BCA4BA0D9733936EA56E /* Pods_STKeyboard_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DD96216751E67398A6C793C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				142AB3F7733C1AEE0D415F67 /* Pods-STKeyboard_Example.debug.xcconfig */,
+				FDE8C44CDB060316AE712912 /* Pods-STKeyboard_Example.release.xcconfig */,
+				8395774F1100B4CE921EAF4C /* Pods-STKeyboard_Tests.debug.xcconfig */,
+				04F03D2DE782AE84676A86FA /* Pods-STKeyboard_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +91,8 @@
 				607FACD21AFB9204008FA782 /* Example for STKeyboard */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				E0C4EE5F2A582C7EC883A937 /* Pods */,
-				DB4A498B776FEB0FC1018E4C /* Frameworks */,
+				1DD96216751E67398A6C793C /* Pods */,
+				7C8A66144E943BE15EE2A111 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +108,8 @@
 		607FACD21AFB9204008FA782 /* Example for STKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				E71993F31E330FF7006245D8 /* MainView.swift */,
-				E71993F41E330FF7006245D8 /* View.swift */,
+				E75CBA801E499672007A18F8 /* MainView.swift */,
+				E75CBA811E499672007A18F8 /* View.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -138,31 +149,20 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9BA236738A602CCCC81F4E9D /* STKeyboard.podspec */,
-				250DBEC5D461D20713C2DD49 /* README.md */,
-				C14D97621EF4CED01ABFE381 /* LICENSE */,
+				1F54041FCCE96523DCD153F1 /* STKeyboard.podspec */,
+				33324798827170B3163222B7 /* README.md */,
+				6C60B90E67074E7DCC515D0D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		DB4A498B776FEB0FC1018E4C /* Frameworks */ = {
+		7C8A66144E943BE15EE2A111 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				223F4126D2C99F11ED2732E9 /* Pods_STKeyboard_Example.framework */,
-				C202F628CE879FC04B1D7DEF /* Pods_STKeyboard_Tests.framework */,
+				E2F6A40A9CA511565B334AF9 /* Pods_STKeyboard_Example.framework */,
+				9ED2F736A83D4874A55685D3 /* Pods_STKeyboard_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E0C4EE5F2A582C7EC883A937 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1C0BB523A257608F5EA314B5 /* Pods-STKeyboard_Example.debug.xcconfig */,
-				EE2A5CA6A909953926DE6C2F /* Pods-STKeyboard_Example.release.xcconfig */,
-				E111ED0A9B65035319405E6E /* Pods-STKeyboard_Tests.debug.xcconfig */,
-				AE20984C9C08E08EF9189C4D /* Pods-STKeyboard_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,12 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "STKeyboard_Example" */;
 			buildPhases = (
-				8C2D5AC8A33FD9A9682A4D3E /* [CP] Check Pods Manifest.lock */,
+				406D37031584C94FFDC69AF6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				22839F806BC3EBF6046444DD /* [CP] Embed Pods Frameworks */,
-				C83884E3643361F51CC25837 /* [CP] Copy Pods Resources */,
+				A338E2318ADE0A5BA00ABB7E /* [CP] Embed Pods Frameworks */,
+				5C181742A3006DA66F173AF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "STKeyboard_Tests" */;
 			buildPhases = (
-				C1EF39F455872838F8965646 /* [CP] Check Pods Manifest.lock */,
+				0A6FA969E113F1990EB2E273 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				3EE5D2AA7B4FEAB165C47186 /* [CP] Embed Pods Frameworks */,
-				DB40F8902888C0CCBF506ECD /* [CP] Copy Pods Resources */,
+				AC955CC78D41E5FCD9D6A50E /* [CP] Embed Pods Frameworks */,
+				F3D0ED9BBB3782ECCF34D18A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,37 +270,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22839F806BC3EBF6046444DD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STKeyboard_Example/Pods-STKeyboard_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3EE5D2AA7B4FEAB165C47186 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STKeyboard_Tests/Pods-STKeyboard_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C2D5AC8A33FD9A9682A4D3E /* [CP] Check Pods Manifest.lock */ = {
+		0A6FA969E113F1990EB2E273 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,7 +285,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C1EF39F455872838F8965646 /* [CP] Check Pods Manifest.lock */ = {
+		406D37031584C94FFDC69AF6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,7 +300,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C83884E3643361F51CC25837 /* [CP] Copy Pods Resources */ = {
+		5C181742A3006DA66F173AF5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,7 +315,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STKeyboard_Example/Pods-STKeyboard_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB40F8902888C0CCBF506ECD /* [CP] Copy Pods Resources */ = {
+		A338E2318ADE0A5BA00ABB7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STKeyboard_Example/Pods-STKeyboard_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC955CC78D41E5FCD9D6A50E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STKeyboard_Tests/Pods-STKeyboard_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D0ED9BBB3782ECCF34D18A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,9 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E71993F61E330FF7006245D8 /* View.swift in Sources */,
+				E75CBA831E499672007A18F8 /* View.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				E71993F51E330FF7006245D8 /* MainView.swift in Sources */,
+				E75CBA821E499672007A18F8 /* MainView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,15 +501,14 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C0BB523A257608F5EA314B5 /* Pods-STKeyboard_Example.debug.xcconfig */;
+			baseConfigurationReference = 142AB3F7733C1AEE0D415F67 /* Pods-STKeyboard_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sonracle.STKeyboard-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -517,15 +516,14 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE2A5CA6A909953926DE6C2F /* Pods-STKeyboard_Example.release.xcconfig */;
+			baseConfigurationReference = FDE8C44CDB060316AE712912 /* Pods-STKeyboard_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sonracle.STKeyboard-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -533,7 +531,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E111ED0A9B65035319405E6E /* Pods-STKeyboard_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8395774F1100B4CE921EAF4C /* Pods-STKeyboard_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -553,7 +551,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE20984C9C08E08EF9189C4D /* Pods-STKeyboard_Tests.release.xcconfig */;
+			baseConfigurationReference = 04F03D2DE782AE84676A86FA /* Pods-STKeyboard_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

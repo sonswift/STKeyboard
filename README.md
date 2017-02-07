@@ -16,12 +16,12 @@ You must import `NSPhotoLibraryUsageDescription` in `Info.plist` in order to acc
 
 STKeyboard is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
- 
+
 ```
 pod "STKeyboard"
 ```
- 
- - Active keyboard
+
+- Active keyboard
 ```
 let textField = UITextField()
 
@@ -30,11 +30,11 @@ textField.switchToSTKeyboard(withType: .number)
 textField.switchToSTKeyboard(withType: .photo)
 ```
 
- - Create a new keyboard by inheriting from `STKeyboard`
+- Create a new keyboard by inheriting from `STKeyboard`
 ```
 class NewCustomKeyboard: STKeyboard {
 
-  static let customKeyboard = NewCustomKeyboard()
+static let customKeyboard = NewCustomKeyboard()
 }
 ```
 
