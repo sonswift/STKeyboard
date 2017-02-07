@@ -10,7 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-You must import NSPhotoLibraryUsageDescription in `Info.plist` in order to access Photo Library.
+You must import `NSPhotoLibraryUsageDescription` in `Info.plist` in order to access Photo Library.
 
 ## Installation
 
@@ -45,6 +45,7 @@ Son Thai, hoangson11592@gmail.com
 ## License
 
 STKeyboard is available under the MIT license. See the LICENSE file for more info.
+
 Copyright (c) 2017 Son Thai (hoangson11592@gmail.com).
 
 See the LICENSE file for more info.
