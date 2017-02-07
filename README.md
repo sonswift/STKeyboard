@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+You must import NSPhotoLibraryUsageDescription in `Info.plist` in order to access Photo Library.
 
 ## Installation
 
@@ -35,6 +36,7 @@ class NewCustomKeyboard: STKeyboard {
 
   static let customKeyboard = NewCustomKeyboard()
 }
+```
 
 ## Author
 
