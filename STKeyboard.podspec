@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STKeyboard'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of STKeyboard.'
+  s.version          = '0.0.1'
+  s.summary          = 'STKeyboard is the best way to use or create a new keyboard for your application.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+STKeyboard supports 2 new kinds of keyboard: Number keyboard and Photo keyboard.
+You can create a new keyboard for your application easier.
+Available in Swift and xCode 8.0 or higher.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/STKeyboard'
+  s.homepage         = 'https://github.com/son11592/STKeyboard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Son Thai' => 'hoangson11592@gmail.com' }
