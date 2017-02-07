@@ -9,7 +9,7 @@
 import AssetsLibrary
 import UIKit
 
-class STKeyboardPhotoCollection: UICollectionView {
+open class STKeyboardPhotoCollection: UICollectionView {
 
   fileprivate let assetsLibrary = AssetsLibrary()
   internal var collectionLayout: UICollectionViewLayout?
@@ -25,7 +25,7 @@ class STKeyboardPhotoCollection: UICollectionView {
   }
 
   convenience init(frame: CGRect) {
-    let size: CGFloat = STKeyboardBase.STKeyboardDefaultHeight - 4
+    let size: CGFloat = STKeyboard.STKeyboardDefaultHeight - 4
     let collectionLayout = UICollectionViewFlowLayout()
     collectionLayout.itemSize = CGSize(width: size, height: size)
     collectionLayout.scrollDirection = .horizontal
@@ -42,31 +42,31 @@ class STKeyboardPhotoCollection: UICollectionView {
     self.commonInit()
   }
 
-  required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
 
-  func commonInit() {
+  open func commonInit() {
     self.delegate = self
     self.dataSource = self
     self.showsHorizontalScrollIndicator = false
     self.showsVerticalScrollIndicator = false
     self.isPagingEnabled = false
     self.backgroundColor = UIColor.clear
-    self.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: STKeyboardBase.STKeyboardDefaultHeight)
+    self.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: STKeyboard.STKeyboardDefaultHeight)
     self.register(STKeyboardPhotoCollectionCell.self, forCellWithReuseIdentifier: "STKeyboardPhotoCollectionCell")
     self.contentInset = UIEdgeInsets(top: 2, left: 2, bottom: 2, right: 2)
     self.assetsLibrary.delegate = self
     self.assetsLibrary.initGroup()
   }
 
-  func fetchDefaultAssetsGroup() {
+  open func fetchDefaultAssetsGroup() {
     Threading.asyncBackground {
       self.assetsLibrary.fetchDefaultPhAssetsWithReverse(true)
     }
   }
 
-  func getDefaultAssetsGroup() {
+  open func getDefaultAssetsGroup() {
     Threading.asyncBackground {
       self.assetsLibrary.forceGetDefaultCollection({ (assets) -> Void in
         self.processResources(assets)
@@ -78,12 +78,12 @@ class STKeyboardPhotoCollection: UICollectionView {
     }
   }
 
-  func processResources(_ assets: [AssetModel]) {
+  open func processResources(_ assets: [AssetModel]) {
     self.fullSources.removeAll(keepingCapacity: false)
     self.fullSources.append(contentsOf: assets)
   }
 
-  func loadDataFromFullSources(location: Int, length: Int) {
+  open func loadDataFromFullSources(location: Int, length: Int) {
     var sourceLen = length
     if sourceLen + location > self.fullSources.count {
       sourceLen = fullSources.count - location

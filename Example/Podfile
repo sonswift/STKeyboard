@@ -1,0 +1,10 @@
+platform :ios, "8.0"
+use_frameworks!
+
+target 'STKeyboard_Example' do
+  pod 'STKeyboard', :path => '../'
+
+  target 'STKeyboard_Tests' do
+    inherit! :search_paths
+  end
+end

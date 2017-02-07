@@ -8,14 +8,14 @@
 
 import UIKit
 
-enum STKeyboardPhotoCollectionCellType {
+public enum STKeyboardPhotoCollectionCellType {
   case normal
   case selected
 }
 
-class STKeyboardPhotoCollectionCell: UICollectionViewCell {
+open class STKeyboardPhotoCollectionCell: UICollectionViewCell {
 
-  override var isSelected: Bool {
+  override open var isSelected: Bool {
     didSet {
       self.showBlur()
     }
@@ -26,7 +26,7 @@ class STKeyboardPhotoCollectionCell: UICollectionViewCell {
   fileprivate let blur = UIVisualEffectView()
   fileprivate let send = UIButton()
 
-  required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
 
@@ -36,12 +36,12 @@ class STKeyboardPhotoCollectionCell: UICollectionViewCell {
     self.initView()
   }
 
-  func initView() {
+  open func initView() {
   }
 
-  func commonInit() {
+  open func commonInit() {
     self.clipsToBounds = true
-    let size: CGFloat = STKeyboardBase.STKeyboardDefaultHeight - 4
+    let size: CGFloat = STKeyboard.STKeyboardDefaultHeight - 4
     self.image.frame = CGRect(x: 0, y: 0, width: size, height: size)
     self.image.contentMode = .scaleAspectFill
 
@@ -65,7 +65,7 @@ class STKeyboardPhotoCollectionCell: UICollectionViewCell {
     self.addSubview(self.send)
   }
 
-  func didSetAsset() {
+  open func didSetAsset() {
     if let asset = self.asset {
       self.backgroundColor = UIColor.green
 
@@ -81,22 +81,29 @@ class STKeyboardPhotoCollectionCell: UICollectionViewCell {
     }
   }
 
-  func sendTUI() {
+  open func sendTUI() {
     print("===== DID SELECT IMAGE!")
     print("GET image by add observer with name: `NSNotification.Name(rawValue: \"PhotoKeyboardCollectionCellPickImage\")`")
     self.asset?.isSelected = false
     self.isSelected = false
-    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "PhotoKeyboardCollectionCellPickImage"), object: self.asset)
+
+    guard let asset = self.asset else { return }
+
+    AssetsLibrary.getFullScreenImagePH(asset: asset.phAsset) { (image) in
+      guard let img = image else { return }
+
+      NotificationCenter.default.post(name: NSNotification.Name(rawValue: "PhotoKeyboardCollectionCellPickImage"), object: img)
+    }
   }
 
   fileprivate func showBlur() {
     if self.isSelected {
-      UIView.animate(withDuration: Constants.animationDuration) {
+      UIView.animate(withDuration: 0.23) {
         self.blur.effect = UIBlurEffect(style: UIBlurEffectStyle.light)
         self.send.alpha = 1
       }
     } else {
-      UIView.animate(withDuration: Constants.animationDuration) {
+      UIView.animate(withDuration: 0.23) {
         self.blur.effect = nil
         self.send.alpha = 0
       }

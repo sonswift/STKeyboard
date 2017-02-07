@@ -14,7 +14,7 @@ enum STKeyboardType {
   case photo
 }
 
-class STKeyboard: UIView {
+class STKeyboardBase: UIView {
 
   static let STKeyboardDefaultHeight: CGFloat = 216
 
@@ -32,7 +32,7 @@ class STKeyboard: UIView {
   }
 
   func commonInit() {
-    self.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: STKeyboard.STKeyboardDefaultHeight)
+    self.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: STKeyboardBase.STKeyboardDefaultHeight)
     self.backgroundColor = UIColor.white
   }
 

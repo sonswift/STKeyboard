@@ -1,60 +1,29 @@
 # STKeyboard
-Custom keyboards for iOS applications.
 
-# Features
-	+ Switch between 3 kinds of keyboard: default, number and photo.
-	+ Support for both UITextField and UITextView
-	+ Support number keyboard.
-	+ Support photo keyboard.
-	
-![alt tag](https://github.com/son11592/STKeyboard/blob/master/STKeyboard.gif)
-	
-# Installation
+[![CI Status](http://img.shields.io/travis/Son Thai/STKeyboard.svg?style=flat)](https://travis-ci.org/Son Thai/STKeyboard)
+[![Version](https://img.shields.io/cocoapods/v/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
+[![License](https://img.shields.io/cocoapods/l/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
+[![Platform](https://img.shields.io/cocoapods/p/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 
- - CocoaPods
+## Example
 
- - Manual
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Drag and drop Classes folder into your project.
+## Requirements
 
-# Usage
+## Installation
 
-  - Active keyboard
-```
-let textField = UITextField()
+STKeyboard is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-textField.switchToSTKeyboard(withType: STKeyboardType.default)
-textField.switchToSTKeyboard(withType: STKeyboardType.number)
-textField.switchToSTKeyboard(withType: STKeyboardType.photo)
+```ruby
+pod "STKeyboard"
 ```
 
-  - Create a new keyboard by inheriting from `STKeyboard`
-```
-class NewCustomKeyboard: STKeyboard {
+## Author
 
-  static let customKeyboard = NewCustomKeyboard()
+Son Thai, hoangson11592@gmail.com
 
-  override func commonInit() {
-    super.commonInit()
-    
-    // Write your code here!
-  }
-}
-```
-  - Then we can switch to this new keyboard by
-```
-let textField = UITextField()
+## License
 
-textField.switchToSTKeyboard(keyboard: NewCustomKeyboard.customKeyboard)
-```
-
-
-# Contact
-
-hoangson11592@gmail.com
-
-If you use/enjoy STKeyboard, let me know!
-
-# License
-
-See the LICENSE file for more info.
+STKeyboard is available under the MIT license. See the LICENSE file for more info.

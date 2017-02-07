@@ -8,18 +8,18 @@
 
 import UIKit
 
-class STKeyboardNumber: STKeyboardBase {
+open class STKeyboardNumber: STKeyboard {
 
   static let sharedNumber = STKeyboardNumber()
   fileprivate var buttons: [STButton] = []
 
-  override func commonInit() {
+  override open func commonInit() {
     super.commonInit()
     self.backgroundColor = UIColor.commonWhiteSand
 
     let padding: CGFloat = 1.0
     let width: CGFloat = (UIScreen.main.bounds.width - padding * 3) * 1/3
-    let height: CGFloat = (STKeyboardBase.STKeyboardDefaultHeight - padding * 5) * 0.25
+    let height: CGFloat = (STKeyboard.STKeyboardDefaultHeight - padding * 5) * 0.25
     var numberX: CGFloat = 0
     var numberY: CGFloat = padding
 
@@ -36,22 +36,22 @@ class STKeyboardNumber: STKeyboardBase {
       }
     }
 
-    let zeroFrame = CGRect(x: 0, y: STKeyboardBase.STKeyboardDefaultHeight - height - padding, width: width, height: height)
+    let zeroFrame = CGRect(x: 0, y: STKeyboard.STKeyboardDefaultHeight - height - padding, width: width, height: height)
     let zero = self.createButton(title: "0", tag: 0, frame: zeroFrame)
     self.addSubview(zero)
     self.buttons.append(zero)
 
-    let trippleFrame = CGRect(x: width + padding, y: STKeyboardBase.STKeyboardDefaultHeight - height - padding, width: width, height: height)
+    let trippleFrame = CGRect(x: width + padding, y: STKeyboard.STKeyboardDefaultHeight - height - padding, width: width, height: height)
     let tripplezero = self.createButton(title: "000", tag: 11, frame: trippleFrame, titleSize: 20)
     self.addSubview(tripplezero)
     self.buttons.append(tripplezero)
 
-    let backFrame = CGRect(x: UIScreen.main.bounds.width - width, y: STKeyboardBase.STKeyboardDefaultHeight - height - padding, width: width, height: height)
+    let backFrame = CGRect(x: UIScreen.main.bounds.width - width, y: STKeyboard.STKeyboardDefaultHeight - height - padding, width: width, height: height)
     let backSpace = self.createButton(title: "\u{232B}", tag: -1, frame: backFrame)
     self.addSubview(backSpace)
   }
 
-  func numberTD(_ button: UIButton) {
+  open func numberTD(_ button: UIButton) {
     UIDevice.current.playInputClick()
     switch button.tag {
     case -1:

@@ -8,25 +8,25 @@
 
 import UIKit
 
-class STKeyboardPhoto: STKeyboardBase {
+open class STKeyboardPhoto: STKeyboard {
 
   static let sharedPhoto = STKeyboardPhoto()
   fileprivate let collection = STKeyboardPhotoCollection()
 
-  override func commonInit() {
+  override open func commonInit() {
     super.commonInit()
     self.backgroundColor = UIColor.commonWhiteSand
     self.addSubview(self.collection)
   }
 
-  func initData() {
+  open func initData() {
   }
 
-  func fetchDefaultAssetsGroup() {
+  open func fetchDefaultAssetsGroup() {
     self.collection.fetchDefaultAssetsGroup()
   }
 
-  func getDefaultAssetsGroup() {
+  open func getDefaultAssetsGroup() {
     self.collection.getDefaultAssetsGroup()
   }
 }

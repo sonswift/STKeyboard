@@ -8,9 +8,9 @@
 
 import UIKit
 
-extension UIResponder {
+public extension UIResponder {
 
-  func switchToSTKeyboard(withType type: STKeyboardType) {
+  public func switchToSTKeyboard(withType type: STKeyboardType) {
     switch type {
     case .default:
       self.stKeyboard()?.switchToDefaultKeyboard()
@@ -25,14 +25,14 @@ extension UIResponder {
     }
   }
 
-  func stKeyboard() -> STKeyboardBase? {
-    if let keyboard = self.inputView as? STKeyboardBase {
+  public func stKeyboard() -> STKeyboard? {
+    if let keyboard = self.inputView as? STKeyboard {
       return keyboard
     }
     return nil
   }
 
-  func switchToSTKeyboard(keyboard: STKeyboardBase) {
+  public func switchToSTKeyboard(keyboard: STKeyboard) {
     if let textInput = self as? UITextInput {
       keyboard.attachToTextInput(textInput: textInput)
     }

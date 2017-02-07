@@ -1,0 +1,22 @@
+{
+  "name": "STKeyboard",
+  "version": "0.1.0",
+  "summary": "A short description of STKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/STKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Son Thai": "hoangson11592@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/son11592/STKeyboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "STKeyboard/**/*"
+}
