@@ -15,6 +15,22 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 STKeyboard is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
+ 
+ - Active keyboard
+```
+let textField = UITextField()
+
+textField.switchToSTKeyboard(withType: .default)
+textField.switchToSTKeyboard(withType: .number)
+textField.switchToSTKeyboard(withType: .photo)
+```
+
+  - Create a new keyboard by inheriting from `STKeyboard`
+```
+class NewCustomKeyboard: STKeyboard {
+
+  static let customKeyboard = NewCustomKeyboard()
+}
 
 ```ruby
 pod "STKeyboard"
@@ -27,3 +43,7 @@ Son Thai, hoangson11592@gmail.com
 ## License
 
 STKeyboard is available under the MIT license. See the LICENSE file for more info.
+Copyright (c) 2017 Son Thai (hoangson11592@gmail.com).
+
+See the LICENSE file for more info.
+
