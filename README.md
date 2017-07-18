@@ -5,7 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 
+
+## Features
+- [x] Support Photo keyboard. (Camera Roll || All Photos)
+- [x] Support Number keyboard.
+- [x] Allow custom new keyboard.
+- [x] Can switch between keyboards.
+- [ ] Allow change photo album.
+
+
 ![alt text](https://github.com/son11592/STKeyboard/blob/master/STKeyboard.gif)
+
 
 ## Example
 
