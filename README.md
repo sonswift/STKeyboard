@@ -1,6 +1,6 @@
 # STKeyboard
 
-[![CI Status](http://img.shields.io/travis/Son Thai/STKeyboard.svg?style=flat)](https://travis-ci.org/Son Thai/STKeyboard)
+[![CI Status](http://img.shields.io/travis/son11592/STKeyboard.svg?style=flat)](https://travis-ci.org/son11592/STKeyboard)
 [![Version](https://img.shields.io/cocoapods/v/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 [![License](https://img.shields.io/cocoapods/l/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
