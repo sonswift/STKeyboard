@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 [![License](https://img.shields.io/cocoapods/l/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/sonacle/0.99)
 
 
 ## Features
