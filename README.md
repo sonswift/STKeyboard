@@ -1,9 +1,22 @@
 # STKeyboard
 
-[![CI Status](http://img.shields.io/travis/Son Thai/STKeyboard.svg?style=flat)](https://travis-ci.org/Son Thai/STKeyboard)
+[![CI Status](http://img.shields.io/travis/son11592/STKeyboard.svg?style=flat)](https://travis-ci.org/son11592/STKeyboard)
 [![Version](https://img.shields.io/cocoapods/v/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 [![License](https://img.shields.io/cocoapods/l/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/STKeyboard.svg?style=flat)](http://cocoapods.org/pods/STKeyboard)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/sonacle/0.99)
+
+
+## Features
+- [x] Support Photo keyboard. (Camera Roll || All Photos)
+- [x] Support Number keyboard.
+- [x] Allow custom new keyboard.
+- [x] Can switch between keyboards.
+- [ ] Allow change photo album.
+
+
+![alt text](https://github.com/son11592/STKeyboard/blob/master/STKeyboard.gif)
+
 
 ## Example
 
